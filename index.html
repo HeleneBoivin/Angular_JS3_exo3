@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html ng-app="test">
+  <head>
+    <meta charset="utf-8">
+    <title>Exercice 3</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.3/angular.min.js"></script>
+    <script src="assets/js/script.js"></script>
+  </head>
+  <body ng-controller="testDate">
+    <h1>AngularJS - partie 3 - Exercice 3</h1>
+    <h3>Dans le fichier html fourni, formater la date 2017-01-23 au format français (dd/MM/yyyy).</h3>
+    <div>
+      {{dateFR | date:'dd/MM/yyyy'}}
+    </div>
+  </body>
+</html>
